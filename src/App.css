@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+* {
+  font-family: 'Oswald';
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+
+.App {
+  text-align: center;
+  background-color: cornflowerblue;
+  min-height: 100dvh;
+  padding-bottom: 5rem;
+
+}
+
+h2 {
+  display: inline;
+  font-size: 2rem;
+  margin-bottom: 0;
+  font-family: 'Climate Crisis', cursive;
+}
+
+.news-article h2 {
+  display: inline;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+
+}
+
+.newsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-article {
+  background-color: antiquewhite;
+  width: 70%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px black;
+}
+
+.center-search {
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.highlight-search {
+  background-color: #fa8d20;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+img {
+  height: 4rem;
+}
